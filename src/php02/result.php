@@ -33,25 +33,32 @@ $comparison = searchCityTime($city);
   <main>
     <div class="result__content">
       <div class="result_cards">
-        <div class="result-card">
-          <div class="result-card__img-wrapper">
-            <img src="img/<?php echo $tokyo['img']?>" alt="国旗" class="result-card__img">
-          </div>
 
-          <div class="result-card__body">
-            <p class="result-card__city"><?php echo $tokyo['name']?></p>
-            <p class="result-card__time"><?php echo $tokyo['time']?></p>
-          </div>
+        <div class="result-card">
+        <div class="result-card__img-wrapper">
+        <img class="result-card__img" src="img/<?php echo $tokyo['img']?>" alt="国旗">
+        </div>
+
+        <div class="result-card__body">
+          <p class="result-card__city">
+          <?php echo $tokyo['name']?>
+          </p>
+          <p class="result-card__time">
+          <?php echo $tokyo['time']?>
+          </p>
+        </div>
         </div>
 
         <div class="result-card">
           <div class="result-card__img-wrapper">
-            <img src="img/" alt="国旗" class="result-card__img">
+            <img src="img/<?php echo $comparison['img']?>" alt="国旗" class="result-card__img">
           </div>
 
         <div class="result-card__body">
-          <p class="result-card__city"></p>
+          <p class="result-card__city">
+          <?php echo $comparison['name']?></p>
           <p class="result-card__time"></p>
+          <?php echo $comparison['time']?>
         </div>
       </div>
     </div>
