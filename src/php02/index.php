@@ -28,7 +28,6 @@
       <select name="city" class="search-form__item-select">
         <option value="シドニー">シドニー</option>
         <option value="上海">上海</option>
-        <option value="東京">東京</option>
         <option value="モスクワ">モスクワ</option>
         <option value="ロンドン">ロンドン</option>
         <option value="ヨハネスブルグ">ヨハネスブルグ</option>
